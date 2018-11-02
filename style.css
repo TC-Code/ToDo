@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.content {
+  width: 70%;
+  min-width: 460px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #508eb8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 95%;
+  margin: 0 auto;
+}
+
+input {
+  outline: none;
+  font-size: 32px;
+  width: 100%;
+}
+
+.search-task {
+  margin-top: 20px;
+}
+
+.btn-add-task {
+  display: none;
+}
+
+.list-title {
+  font-size: 48px;
+  padding: 20px 0 40px 0;
+}
+
+.task-list {
+  list-style: none;
+  font-size: 32px;
+
+}
+
+.task-list li .dot,
+.task-list li .delete-task {
+  font-size: 16px;
+}
+
+.task-list .dot {
+  position: relative;
+  bottom: 3px;
+  padding-right: 20px;
+}
+
+.delete-task {
+  position: relative;
+  bottom: 3px;
+  padding-left: 10px;
+  cursor: pointer;
+}
